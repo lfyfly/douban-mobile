@@ -1,7 +1,5 @@
-# vue_origin
-
-> A Vue.js project
-
+# vue项目：豆瓣移动端单页应用
+# [线上演示](https://lfyfly.github.io/douban-mobile/.)
 ## Build Setup
 
 ``` bash
