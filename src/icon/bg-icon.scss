@@ -1,0 +1,50 @@
+// 此文件在App.vue中引用
+@import 'src/scss/index.scss';
+
+.douban-logo{
+  @include bgImgRem(.46, .22, '/static/img/douban_logo.png')
+}
+.search-icon{
+  @include bgImgRem(.25, .18, '/static/img/search.png')
+}
+
+
+.douban-avatar{
+  @include bgImgRem(.38, .38, '/static/img/douban-app-logo.png')
+
+}
+
+.avatar-icon{
+  @include bgImgRem(.4, .4, '/static/img/body/status/user_normal.jpg')
+}
+
+.douban-avatar{
+  @include bgImgRem(.38, .38, '/static/img/douban-app-logo.png')
+
+}
+.pen-icon{
+  @include bgImgRem(.24, .24, '/static/img/body/status/pen.svg')
+}
+.carmera-icon{
+  @include bgImgRem(.24, .24, '/static/img/body/status/carmera.svg')
+}
+.like-grey-icon{
+  @include bgImgRem(.2, .2, '/static/img/body/status/ic_like_gray.svg')
+
+}
+.retweet-gray-icon{
+  @include bgImgRem(.2, .2, '/static/img/body/status/ic_retweet_gray.svg')
+
+}
+.more-icon{
+  @include bgImgRem(.2, .2, '/static/img/body/status/more.svg');
+      background-size: contain;
+      background-position: center center;
+}
+.comment-icon{
+  @include bgImgRem(.2, .2, '/static/img/body/status/ic_comment.svg')
+}
+
+.search-btn-icon{
+  @include bgImgRem(.18, .18, '/static/img/body/search/search-btn-icon.png')
+}

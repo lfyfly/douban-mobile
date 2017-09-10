@@ -1,0 +1,6 @@
+// 可以在任何需要的组件中引入
+// @import 'src/scss/index.scss';
+@import './global.scss';
+@import 'src/commom/scss/mixins.scss';
+// ------------------定制化mixin------------------
+

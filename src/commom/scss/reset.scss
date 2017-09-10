@@ -1,0 +1,126 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+// 此文件在App.vue中引用
+@import 'src/scss/global.scss';
+body {
+  color: $base-font-color;
+  font-size: $base-font-size;
+  font-family: $font-family;
+  line-height: normal;
+}
+
+a {
+  color: $base-font-color;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+
+// 布局相关
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.horizontal>* {
+  display: inline-block;
+}
+
+.vertical-center {
+  display: table;
+  &>*:first-child {
+    display: table-cell;
+    vertical-align: middle;
+  }
+}
+
+.icon-text-hor>* {
+  vertical-align: middle;
+}
+
+// 移动端一像素
+.mobile-1px:after {
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  background: #f3f3f3;
+  transform: scaleY(.5);
+}
+
+// 单行文本...
+.text-overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// 移动端多行文本...
+.text-overflow-multi-line {
+    overflow: hidden;
+    text-overflow: ellipsis;
+     /* autoprefixer: off*/
+    display: -webkit-box;
+    -webkit-line-clamp: 2; // 2行
+    -webkit-box-orient: vertical;
+     /* autoprefixer: on*/
+}
