@@ -1,5 +1,5 @@
 # vue项目：豆瓣移动端单页应用
-# [线上演示](https://lfyfly.github.io/douban-mobile/.)
+# [线上演示](http://lfyfly.gitee.io/douban-mobile/docs)
 ## Build Setup
 
 ``` bash
